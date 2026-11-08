@@ -69,7 +69,7 @@ Conexión a internet (la app consulta APIs)
 Pasos
 bash
 # 1. Clonar el repositorio
-git clone https://github.com/dannasofiacruz14-byte/pokemon-career-test.git
+git clone https://github.com/dannasofiacruz14-byte/proyectofinalmoviles
 cd pokemon-career-test
 
 # 2. Instalar las dependencias
