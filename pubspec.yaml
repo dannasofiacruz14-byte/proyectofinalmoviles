@@ -1,0 +1,59 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_preview: ^1.2.0
+  http: ^1.2.0
+  shared_preferences: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/pokemon_logo.png
+    - assets/images/pikachu_grad.png
+    - assets/images/pokebol.png
+    - assets/images/icon_test.png
+    - assets/images/icon_inicio.png
+    - assets/images/icon_pokedex.png
+    - assets/images/img1.png
+    - assets/images/img2.png
+    - assets/images/img3.png
+    - assets/images/img4.png
+    - assets/images/icon_guardados.png
+    - assets/images/icon_lupa.webp
+    - assets/images/icon_atras.png
+    - assets/images/carrera_software.png
+    - assets/images/carrera_diseno.png
+    - assets/images/carrera_marketing.png
+    - assets/images/carrera_uxui.png
+    - assets/images/carrera_animacion.png
+    - assets/images/carrera_derecho.png
+    - assets/images/icon_borrar.png
+    - assets/images/icon_foco.png
+
+  fonts:
+    - family: Fredoka
+      fonts:
+        - asset: assets/fonts/Fredoka-Bold.ttf
+          weight: 700
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
